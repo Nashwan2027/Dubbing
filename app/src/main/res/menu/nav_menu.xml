@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="الرئيسية" />
+        <item
+            android:id="@+id/nav_ai_settings"
+            android:title="إعدادات الذكاء الاصطناعي" />
+        <item
+            android:id="@+id/nav_theme"
+            android:title="المظهر (ليلي/نهاري)" />
+    </group>
+    <item android:title="معلومات">
+        <menu>
+            <item
+                android:id="@+id/nav_help"
+                android:title="التعليمات" />
+            <item
+                android:id="@+id/nav_about"
+                android:title="حول التطبيق" />
+        </menu>
+    </item>
+</menu>
